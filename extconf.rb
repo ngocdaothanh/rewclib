@@ -1,0 +1,1 @@
+require 'mkmf'EXT_NAME = 'rewclib'$LDFLAGS << "shlwapi.lib ole32.lib strmiids.lib oleaut32.lib"dir_config(EXT_NAME)create_makefile(EXT_NAME)

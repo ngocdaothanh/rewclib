@@ -1,0 +1,12 @@
+== Introduction
+
+Rewclib = Ruby binding for EWCLIB (http://www.geocities.jp/in_subaru/ewclib/index.html)
+
+This binding only wraps the basic functionality part of EWCLIB, and only supports one camera.
+
+== API
+
+Class Rewclib
+* open(width, height, fps)
+* close
+* image
