@@ -1,0 +1,7 @@
+*.lib
+*.exp
+*.def
+*.manifest
+*.obj
+*.pdb
+Makefile
